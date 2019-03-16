@@ -58,13 +58,13 @@ echo $Y.
 | |   | | __/ _ \ | | || | | |_) |
 | |___| | ||  __/ |_| || | |  __/ 
 |_____|_|\__\___|\___/ |_| |_|";
-echo $R."\n++++++++++++++++++++++++++++++++++++++";
-echo $B."\nAuthor  : Cvar1984                   ".$R.'+';
-echo $B."\nGithub  : https://github.com/Cvar1984".$R.'+';
-echo $B."\nTeam    : BlackHole Security         ".$R.'+';
-echo $B."\nVersion : 2.4                        ".$R.'+';
-echo $B."\nDate    : 13-03-2018                 ".$R.'+';
-echo $R."\n++++++++++++++++++++++++++++++++++++++".$G.$X."\n\n";
+echo $R."\n+++++++++++++++++++++++++++++++++++++++++";
+echo $B."\nAuthor  : Bluefinder79                   ".$R.'+';
+echo $B."\nGithub  : https://github.com/bluefinder79".$R.'+';
+echo $B."\nTeam    : BlueDevastation Team           ".$R.'+';
+echo $B."\nVersion : 2.4                            ".$R.'+';
+echo $B."\nDate    : 13-03-2019                     ".$R.'+';
+echo $R."\n+++++++++++++++++++++++++++++++++++++++++".$G.$X."\n\n";
 isset($argv[1]) OR die($RR."[!] Input No List [!]\n".$X);
 if(is_numeric($argv[1])) {
 	echo "Calling     -> ".$G.$argv[1].$X."\n";
